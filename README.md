@@ -1,4 +1,4 @@
-## maintenance warning snackbar
+## Maintenance Warning Snackbar
 
 Super simple vanilla JavaScript lib (under 40 lines of code (excluding CSS string)) to display a maintenance warning side bar.
 The snackbar is shown for X seconds (currently 10 seconds) and then disappears unless it is closed by the user prior to the X seconds being up.
