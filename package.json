@@ -1,0 +1,24 @@
+{
+  "name": "maintenance-warning-snackbar",
+  "version": "1.0.0",
+  "description": "Super simple vanilla JavaScript lib (under 40 lines of code (excluding CSS string)) to display a maintenance warning side bar. The snackbar is shown for X seconds (currently 10 seconds) and then disappears unless it is closed by the user prior to the X seconds being up.",
+  "main": "maintenanceWarningSnackbar.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IPS-LMU/maintenanceWarningSnackbar.git"
+  },
+  "author": "Raphael Winkelmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IPS-LMU/maintenanceWarningSnackbar/issues"
+  },
+  "homepage": "https://github.com/IPS-LMU/maintenanceWarningSnackbar#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

@@ -8,7 +8,7 @@ How it works:
 - fetch https://www.phonetik.uni-muenchen.de/admin/public/api/availability/outages.php if there is an outage within the next 3 days -> fetch text from https://www.phonetik.uni-muenchen.de/admin/public/api/availability/next_outage_text.php and display it in snackbar
 - if not -> don't do anything
 
-### Usage
+### Usage via IIFE
 
 simply include this lib in your `index.html` file:
 
@@ -17,8 +17,15 @@ simply include this lib in your `index.html` file:
 To avoid CSS bleed every CSS item has the prefix: `maintenance-warning-snackbar` (which I know
 isn't a perfect solution but we are keeping this a simple as possible)
 
+### Usage via NPM
+
+If you want to install this script via npm to your project, just call:
+
+````npm install --save https://github.com/IPS-LMU/maintenanceWarningSnackbar/tarball/main````
+
+After that you need to insert ````node_modules/maintenanceWarningSnackbar/maintenanceWarningSnackbar.js```` to your web app.
+
 ## For Developers
 
-Start some form of dev server:
-
-- `python3 -m http.server`
+1. Clone this repo and install via `npm install"
+2. Call npm start
