@@ -17,6 +17,7 @@
     left: 12.5%;
     bottom: 30px;
     font-size: 17px;
+    z-index: 10000;
   }
   
   #maintenance-warning-snackbar.show {
